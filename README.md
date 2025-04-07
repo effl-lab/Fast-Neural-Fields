@@ -1,18 +1,24 @@
-# In Search of a Data Transformation That Accelerates Neural Field Training
+# Training Neural Fields faster!
+
+## In Search of a Data Transformation That Accelerates Neural Field Training (CVPR 2024, Oral)
 ### [Paper](https://arxiv.org/abs/2311.17094) | [Hugging Face](https://huggingface.co/papers/2311.17094)
 
-Junwon Seo\*, Sangyoon Lee\*, Kwang In Kim, Jaeho Lee<br><br>
+Junwon Seo\*, Sangyoon Lee\*, Kwang In Kim, and Jaeho Lee<br><br>
 Pohang University of Science and Technology (POSTECH)
 
 ![pipeline](./assets/pipeline1.png)
 
-<br>
 
-This is the official Github page for the paper "In Search of a Data Transformation That Accelerates Neural Field Training" (CVPR 2024).
 
-<br>
+## Fast Training of Sinusoidal Neural Fields via Scaling Initialization (ICLR 2025)
+### [Paper](https://arxiv.org/abs/2410.04779)
 
-## SIREN experiments
+Taesun Yeom\*, Sangyoon Lee\*, and Jaeho Lee<br><br>
+Pohang University of Science and Technology (POSTECH)
+
+
+
+## Experiments
 
 Our experiments on SIREN are based on the official code for the paper ["Implicit Neural Representations with Periodic Activation Functions"](https://github.com/vsitzmann/siren).<br>
 
@@ -55,5 +61,16 @@ author = {Junwon Seo and Sangyoon Lee and Kwang In Kim and Jaeho Lee},
 title = {In Search of a Data Transformation That Accelerates Neural Field Training},
 year = {2024},
 booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}
+}
+```
+
+```
+@inproceedings{
+yeom2025fast,
+title={Fast Training of Sinusoidal Neural Fields via Scaling Initialization},
+author={Taesun Yeom and Sangyoon Lee and Jaeho Lee},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=Sr5XaZzirA}
 }
 ```
