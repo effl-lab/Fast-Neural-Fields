@@ -3,10 +3,10 @@
 This repository contains efficient training schemes for neural fields, developed by EffL Group at POSTECH.
 
 **[CVPR 2024, Oral]** In Search of a Data Transformation That Accelerates Neural Field Training <br>
-by Junwon Seo*, Sangyoon Lee*, Kwang In Kim, and Jaeho Lee (Link: [Paper](https://arxiv.org/abs/2311.17094), [Hugging Face Demo](https://huggingface.co/papers/2311.17094))
+by _Junwon Seo*, Sangyoon Lee*, Kwang In Kim, and Jaeho Lee_ [[Paper](https://arxiv.org/abs/2311.17094)], [[Hugging Face Demo](https://huggingface.co/papers/2311.17094)]
 
 **[ICLR 2025]** Fast Training of Sinusoidal Neural Fields via Scaling Initialization <br>
-by Taesun Yeom, Sangyoon Lee, and Jaeho Lee (Link: [Paper](https://arxiv.org/abs/2410.04779))
+by _Taesun Yeom*, Sangyoon Lee*, and Jaeho Lee_ [[Paper](https://arxiv.org/abs/2410.04779)]
 
 
 ## Experiments
