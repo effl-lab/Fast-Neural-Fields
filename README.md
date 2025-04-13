@@ -1,4 +1,4 @@
-# Training Neural Fields faster!
+# Efficient and Fast Training of Neural Fields
 
 This repository contains efficient training schemes for neural fields, developed by EffL Group at POSTECH.
 
