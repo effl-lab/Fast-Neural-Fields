@@ -2,21 +2,8 @@
 
 This repository contains efficient training schemes for neural fields, developed by our group.
 
-
-## In Search of a Data Transformation That Accelerates Neural Field Training (CVPR 2024, Oral)
-### [Paper](https://arxiv.org/abs/2311.17094) | [Hugging Face](https://huggingface.co/papers/2311.17094)
-
-Junwon Seo\*, Sangyoon Lee\*, Kwang In Kim, and Jaeho Lee<br>
-
-![pipeline](./assets/pipeline1.png)
-
-
-
-## Fast Training of Sinusoidal Neural Fields via Scaling Initialization (ICLR 2025)
-### [Paper](https://arxiv.org/abs/2410.04779)
-
-Taesun Yeom\*, Sangyoon Lee\*, and Jaeho Lee<br>
-![pipeline](./assets/ws_init.png)
+1) [CVPR 2024, Oral] In Search of a Data Transformation That Accelerates Neural Field Training ([Paper](https://arxiv.org/abs/2311.17094), [Hugging Face Demo](https://huggingface.co/papers/2311.17094))
+2) [ICLR 2025] Fast Training of Sinusoidal Neural Fields via Scaling Initialization ([Paper](https://arxiv.org/abs/2410.04779))
 
 
 ## Experiments
