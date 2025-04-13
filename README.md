@@ -14,7 +14,7 @@ by _Taesun Yeom*, Sangyoon Lee*, and Jaeho Lee_ [[Paper](https://arxiv.org/abs/2
 Our experiments on SIREN are based on the official code for the paper ["Implicit Neural Representations with Periodic Activation Functions"](https://github.com/vsitzmann/siren).<br>
 
 This repository does not contain any image datasets used in the manuscript.<br>
-We used [Kodak](https://r0k.us/graphics/kodak/), [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/), and CLIC datasets for our main experiments. (Section 3.1. in our paper for details)
+We used [Kodak](https://r0k.us/graphics/kodak/), [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/), and CLIC datasets for our main experiments. (Section 3.1. in our [Paper](https://arxiv.org/abs/2311.17094) for details)
 <br><br>
 
 ### Setup
@@ -40,7 +40,7 @@ Descriptions of the command line flags are in `/SIREN/README.md`.
 
 ## Loss Landscape
 
-All loss landscapes in our paper can be visualized in the [Demo](https://huggingface.co/spaces/lyunm1206/Interactive_Loss_Landscapes) with 3D interactive versions.<br>
+All loss landscapes in our [Paper](https://arxiv.org/abs/2311.17094) can be visualized in the [Demo](https://huggingface.co/spaces/lyunm1206/Interactive_Loss_Landscapes) with 3D interactive versions.<br>
 <br>
 ![Demo](./assets/demo.png)
 
