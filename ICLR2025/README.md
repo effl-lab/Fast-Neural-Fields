@@ -1,7 +1,7 @@
 ## Weight Scaling Initialization for SNFs
 
 ### Image regression
-For running a code, you need to install Pytorch, Numpy and Matplotlib.
+To run the code, you need to install PyTorch, NumPy, and Matplotlib.
 
 ```
 ### Weight scaling (Ours)
