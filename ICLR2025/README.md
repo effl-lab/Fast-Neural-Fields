@@ -8,5 +8,5 @@ To run the code, you need to install PyTorch, NumPy, and Matplotlib.
 CUDA_VISIBLE_DEVICES='gpu_number' python weight_scaling.py --nonlinearity=sine --width=512 --scale=2.5
 
 ### Other nonlinearities (choose one)
-CUDA_VISIBLE_DEVICES='gpu_number' weight_scaling.py --nonlinearity={sinc, gauss, gabor} --width=512
+CUDA_VISIBLE_DEVICES='gpu_number' python weight_scaling.py --nonlinearity={'sinc' or 'gauss' or 'gabor'(WIRE) or 'sine'(Vanilla SIREN)} --width=512
 ```
