@@ -3,7 +3,6 @@
 ### Image regression
 For running a code, you need to install Pytorch, Numpy and Matplotlib.
 
-<br/>
 ```
 ### Weight scaling (Ours)
 CUDA_VISIBLE_DEVICES='gpu_number' python weight_scaling.py --nonlinearity=sine --width=512 --scale=2.5
