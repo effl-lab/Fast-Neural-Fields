@@ -1,4 +1,31 @@
-# Description of the command line flags
+## Experiments
+Our experiments on SIREN are based on the official code for the paper ["Implicit Neural Representations with Periodic Activation Functions"](https://github.com/vsitzmann/siren).<br>
+
+This repository does not contain any image datasets used in the manuscript.<br>
+We used [Kodak](https://r0k.us/graphics/kodak/), [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/), and CLIC datasets for our main experiments. (Section 3.1. in our [Paper](https://arxiv.org/abs/2311.17094) for details)
+<br><br>
+
+### Setup
+
+To run a single SIREN experiment, execute the following command:
+
+```
+$ cd SIREN
+### example code
+$ python siren_DT.py --experiment_name=1 --lr=-10 --sidelength=512 --num_workers=16 --project=SIREN --max_steps=10000 --directory=kodak_ori --batch_size=18 --gpu_num=0 --type=origin
+```
+<br>
+
+To run all experiments for the Kodak datset, use the following script:
+
+```
+$ cd SIREN
+$ sh run_siren.sh
+```
+<br>
+
+
+### Description of the command line flags
 
 * `experiment_name` (e.g., 1)
     * Specifies the number of the image for the experiment.
@@ -23,3 +50,8 @@
     * Type of data transformation for the experiment.
     * Other data transformations can be found in our Python code.
 
+### Loss Landscape
+
+All loss landscapes in our [Paper](https://arxiv.org/abs/2311.17094) can be visualized in the [Demo](https://huggingface.co/spaces/lyunm1206/Interactive_Loss_Landscapes) with 3D interactive versions.<br>
+<br>
+![Demo](../assets/demo.png)
