@@ -10,7 +10,6 @@ We used [Kodak](https://r0k.us/graphics/kodak/), [DIV2K](https://data.vision.ee.
 To run a single SIREN experiment, execute the following command:
 
 ```
-$ cd SIREN
 ### example code
 $ python siren_DT.py --experiment_name=1 --lr=-10 --sidelength=512 --num_workers=16 --project=SIREN --max_steps=10000 --directory=kodak_ori --batch_size=18 --gpu_num=0 --type=origin
 ```
@@ -19,7 +18,6 @@ $ python siren_DT.py --experiment_name=1 --lr=-10 --sidelength=512 --num_workers
 To run all experiments for the Kodak datset, use the following script:
 
 ```
-$ cd SIREN
 $ sh run_siren.sh
 ```
 <br>
