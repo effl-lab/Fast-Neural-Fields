@@ -1,11 +1,13 @@
 ## Weight Scaling Initialization for SNFs
 
 ### Image regression
+For running a code, you need to install Pytorch, Numpy and Matplotlib.
 
+<br/>
 ```
 ### Weight scaling (Ours)
-$ python weight_scaling.py --nonlinearity=sine --width=512 --scale=2.5
+CUDA_VISIBLE_DEVICES='gpu_number' python weight_scaling.py --nonlinearity=sine --width=512 --scale=2.5
 
 ### Other nonlinearities (choose one)
-$ python weight_scaling.py --nonlinearity={sinc, gauss, gabor} --width=512
+CUDA_VISIBLE_DEVICES='gpu_number' weight_scaling.py --nonlinearity={sinc, gauss, gabor} --width=512
 ```
