@@ -22,6 +22,4 @@
 * `type` (e.g., origin)
     * Type of data transformation for the experiment.
     * Other data transformations can be found in our Python code.
-* `init_scale`
-    * Scaling factor for initialization distribution.
-      
+
