@@ -11,6 +11,7 @@ by _Taesun Yeom*, Sangyoon Lee*, and Jaeho Lee_ [[Paper](https://arxiv.org/abs/2
 
 ## Experiments
 
+Please refer to each folder to run the code for the experiments.
 Our experiments on SIREN are based on the official code for the paper ["Implicit Neural Representations with Periodic Activation Functions"](https://github.com/vsitzmann/siren).<br>
 
 This repository does not contain any image datasets used in the manuscript.<br>
