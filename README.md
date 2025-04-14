@@ -2,6 +2,8 @@
 
 This repository contains efficient training schemes for neural fields, developed by EffL Group at POSTECH.
 
+## Paper List
+
 **[CVPR 2024, Oral]** In Search of a Data Transformation That Accelerates Neural Field Training <br>
 by _Junwon Seo*, Sangyoon Lee*, Kwang In Kim, and Jaeho Lee_ [[Paper](https://arxiv.org/abs/2311.17094)], [[Hugging Face Demo](https://huggingface.co/papers/2311.17094)]
 
@@ -11,39 +13,8 @@ by _Taesun Yeom*, Sangyoon Lee*, and Jaeho Lee_ [[Paper](https://arxiv.org/abs/2
 
 ## Experiments
 
-Please refer to each folder to run the code for the experiments.
-Our experiments on SIREN are based on the official code for the paper ["Implicit Neural Representations with Periodic Activation Functions"](https://github.com/vsitzmann/siren).<br>
+Please refer to the README file in each folder to run the code for the experiments.
 
-This repository does not contain any image datasets used in the manuscript.<br>
-We used [Kodak](https://r0k.us/graphics/kodak/), [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/), and CLIC datasets for our main experiments. (Section 3.1. in our [Paper](https://arxiv.org/abs/2311.17094) for details)
-<br><br>
-
-### Setup
-
-To run a single SIREN experiment, execute the following command:
-
-```
-$ cd SIREN
-### example code
-$ python siren_DT.py --experiment_name=1 --lr=-10 --sidelength=512 --num_workers=16 --project=SIREN --max_steps=10000 --directory=kodak_ori --batch_size=18 --gpu_num=0 --type=origin
-```
-<br>
-
-To run all experiments for the Kodak datset, use the following script:
-
-```
-$ cd SIREN
-$ sh run_siren.sh
-```
-
-Descriptions of the command line flags are in `/SIREN/README.md`. 
-<br>
-
-## Loss Landscape
-
-All loss landscapes in our [Paper](https://arxiv.org/abs/2311.17094) can be visualized in the [Demo](https://huggingface.co/spaces/lyunm1206/Interactive_Loss_Landscapes) with 3D interactive versions.<br>
-<br>
-![Demo](./assets/demo.png)
 
 ## Citation
 
