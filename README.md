@@ -13,7 +13,7 @@ by _Taesun Yeom*, Sangyoon Lee*, and Jaeho Lee_ [[Paper](https://arxiv.org/abs/2
 
 ## Experiments
 
-Please refer to the README file in each folder to run the code for the experiments.
+Please refer to the README file in each folder for instructions on running the code and for more details.
 
 
 ## Citation
